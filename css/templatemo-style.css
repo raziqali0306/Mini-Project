@@ -9,21 +9,17 @@ http://www.templatemo.com/tm-507-victory
 * {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", arial, sans-serif;
+  font-family: 'Roboto', arial, sans-serif;
 }
 .project {
   color: white !important;
 }
 .placeorder button {
-  color: #828a89;
-  background: linear-gradient(
-    to right top,
-    rgba(167, 165, 163, 0.185),
-    rgba(206, 189, 38, 0.568)
-  );
+  color: white;
+  background: linear-gradient(to right top, rgb(255, 83, 21), rgb(255, 68, 0));
   border-radius: 15px;
-  padding: 5px;
-  font-size: large;
+  padding: 12px;
+  font-size: 18px;
   position: relative;
   left: 44%;
   bottom: 50px;
@@ -117,7 +113,7 @@ p {
 }
 
 .navbar-brand {
-  font-family: "Spectral", serif;
+  font-family: 'Spectral', serif;
   font-size: 44px;
   color: #121212;
   font-style: italic;
@@ -158,7 +154,7 @@ ul li:hover {
 }
 
 .navbar-nav li a {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 13px;
   text-transform: uppercase;
   color: #363e50 !important;
@@ -209,7 +205,7 @@ ul li:hover {
 
 .banner h4 {
   margin-top: 0px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 15px;
   color: #fff;
@@ -218,7 +214,7 @@ ul li:hover {
 }
 
 .banner h2 {
-  font-family: "Spectral", serif;
+  font-family: 'Spectral', serif;
   font-size: 44px;
   font-weight: 600;
   color: #fff;
@@ -356,7 +352,7 @@ section.services {
   margin-top: 20px;
   font-size: 22px;
   color: #121212;
-  font-family: "Spectral", serif;
+  font-family: 'Spectral', serif;
   font-weight: 600;
   margin-bottom: 0px;
 }
@@ -394,7 +390,7 @@ section#book-table .left-image img {
 
 .right-info h4 {
   margin-top: 0px;
-  font-family: "Spectral", serif;
+  font-family: 'Spectral', serif;
   font-size: 28px;
 }
 
@@ -478,7 +474,7 @@ section.featured-food {
   margin-top: 0px;
   margin-bottom: 30px;
   padding-bottom: 8px;
-  font-family: "Spectral", serif;
+  font-family: 'Spectral', serif;
   font-size: 28px;
   width: 100%;
   border-bottom: 1px solid #d9dde5;
@@ -510,7 +506,7 @@ section.featured-food {
 
 .food-item h4 {
   margin-top: 0px;
-  font-family: "Spectral", serif;
+  font-family: 'Spectral', serif;
   font-size: 18px;
   color: #121212;
 }
@@ -552,7 +548,7 @@ section.our-blog {
   margin-top: 0px;
   margin-bottom: 0px;
   padding-bottom: 8px;
-  font-family: "Spectral", serif;
+  font-family: 'Spectral', serif;
   font-size: 21px;
   color: #121212;
 }
@@ -688,6 +684,10 @@ footer ul li i:hover {
   background-color: #f2745f;
 }
 
+footer ul li:hover {
+  background-color: #363e50;
+}
+
 section.page-heading {
   padding: 80px 0px;
   background-image: url(../img/heading-bg.jpg);
@@ -710,7 +710,7 @@ section.page-heading {
 .page-heading h1 {
   margin-top: 0px;
   margin-bottom: 20px;
-  font-family: "Spectral", serif;
+  font-family: 'Spectral', serif;
   font-size: 48px;
   font-weight: 700;
   text-transform: uppercase;
@@ -754,7 +754,7 @@ section.breakfast-menu .price {
   margin-top: 0px;
   margin-bottom: 30px;
   padding-bottom: 8px;
-  font-family: "Spectral", serif;
+  font-family: 'Spectral', serif;
   font-size: 28px;
   width: 94.5%;
   border-bottom: 1px solid #d9dde5;
@@ -791,7 +791,7 @@ section.lunch-menu .price {
   margin-top: 0px;
   margin-bottom: 30px;
   padding-bottom: 8px;
-  font-family: "Spectral", serif;
+  font-family: 'Spectral', serif;
   font-size: 28px;
   width: 94.5%;
   border-bottom: 1px solid #d9dde5;
@@ -829,7 +829,7 @@ section.dinner-menu .price {
   margin-top: 0px;
   margin-bottom: 30px;
   padding-bottom: 8px;
-  font-family: "Spectral", serif;
+  font-family: 'Spectral', serif;
   font-size: 28px;
   width: 94.5%;
   border-bottom: 1px solid #d9dde5;
@@ -915,12 +915,12 @@ section.blog-page .page-number li a:hover {
   margin-top: 0px;
   margin-bottom: 0px;
   padding-bottom: 8px;
-  font-family: "Spectral", monospace;
+  font-family: 'Spectral', monospace;
   font-size: 21px;
   color: #121212;
 }
 .blog-item .down-content p {
-  font-family: "Spectral", sans-serif;
+  font-family: 'Spectral', sans-serif;
   color: black;
   font-size: 15px;
 }
@@ -1228,4 +1228,10 @@ section.map #map {
   }
 }
 @media (max-width: 480px) {
+}
+
+#names {
+  font-weight: bolder !important;
+  font-family: monospace;
+  font-size: 20px;
 }
